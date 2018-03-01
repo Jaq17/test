@@ -1,0 +1,79 @@
+<?php
+$mensagem=0;
+@$mensagem=$_POST['mensagem'];
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loja Beco Diagonal</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+	<style> span {color:red;} </style>				
+</head>
+
+
+<body>
+
+	<div id="banner">
+        <img src="img/o3.jpg"width="930px" height="300px">
+        </div>
+        
+        <div>
+         <a href="index.php">Página Inicial</a>
+        <a href="empresa.html">Empresa</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="regras.html">Regras</a>
+        <a href="pagamento.html">Pagamento</a>
+        <a href="contato.html">Contato</a>
+        </div>
+        
+   
+    <h2>Formulário de contato</h2>
+    <form id="form" method="post" action="testconta.php" class="form">
+    <p class="name">
+        <label for="name" name="nome">Nome:</label>
+        <input type="text" placeholder="Seu Nome" id="nome" name="nome" />
+        <span class='msg-erro msg-nome'></span>
+    </p>
+	
+	
+    <p class="assunto">
+        <label for="assunto" name="assunto">Assunto:</label>
+        <input type="text" placeholder="Seu assunto" id="assunto" name="assunto" />
+		<span class='msg-erro msg-assunto'></span>
+    </p>
+	
+	
+    <p class="email">
+        <label for="email" name="email">E-mail:</label>
+        <input type="text" placeholder="email@exemplo.com.br" id="email" name="email" />
+		<span class='msg-erro msg-email'></span>
+    </p>
+	
+	
+    <p class="text">
+        <label for="mensagem">Mensagem:</label>
+        <textarea placeholder="Escreva sua mensagem" id="mensagem" name="mensagem" /></textarea>
+		<span class='msg-erro msg-mensagem'></span>
+    </p>
+    <p class="submit">
+        <input type="submit" value="Enviar" id="botao" />
+    </p>
+    </form>
+       
+    <div id="rodape">
+       		<p>Loja Beco Diagonal<br>   
+           	Localizada na rua 1000 n°00 bairro: exemplo<br>
+      	 Telefone:(47) 99999-9999  | lojabecodiagonal@exemplo.com<br>
+       Empresa Fictícia | Projeto Integrador 2017 </p>
+
+        
+         </div>
+         <script type="text/javascript" src="custom.js"></script>
+         <?php endif;  ?>
+		 
+	
+</body>
+</html>

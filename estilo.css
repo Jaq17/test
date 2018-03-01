@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{position:relative;
+	 
+	    width: 930px; 
+		margin: 0 auto; 
+		background-color:#000;
+		text-align: center;
+		font-family: Comic Sans MS ,Constantia,Segoe,Verdana, sans-serif;
+		font-size: 14px;}
+		
+section form a{
+	color:#e9d9ee; 
+	text-decoration: none; outline:none;
+		font-family: Helvetica,Segoe,Verdana, sans-serif;
+		font-size:14px;
+}
+
+section button a {
+	color:black;
+	
+}
+
+
+
+div a {color:#e9d9ee; 
+	text-decoration: 
+	none; outline:none;
+		
+		font-size:14px;}
+
+div a:hover {color:#000; 
+		text-decoration:none;}
+
+div a{ padding:05px 46px;  
+	background-color:#ad9359; 
+	color:white; }
+
+h3{
+	background-color:#ad9359; color:white; 
+	padding: 10px; margin: 0 auto; 
+	font-size:16px;
+	text-align: center;	}
+
+#banner { width: 455px;}
+
+.camis { width: 930px; color: white; }
+
+#esquerda{width: 455px; float:left;}
+
+#direita{width: 455px; float:right;}
+
+#coluna01,#coluna03 { background-color:#541d21; 
+					width:200px; float:left; 
+					border:#541d21 solid 10px;}
+
+#coluna02, #coluna04 { background-color:#541d21; 
+					width:200px; float: right; 
+					border:#541d21 solid 10px;}
+
+footer img{ padding-top:50px; 
+			padding-left:668px;}
+
+#rodape {
+	position: absolute;
+	clear:both;/*posicionando o rodape abaixo das outras divs*/
+	color:#333; 
+	text-align:center; 
+	padding:100px 70px 20px;
+	bottom:-500px;
+	left: 200px;}
+	
+form p input, textarea {
+    padding: 10px;
+    
+    width: 200px;}
+	
+textarea {
+    width: 400px;
+    height: 150px;
+    max-width: 400px;
+    line-height: 18px;}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: 1px solid #C9C9C9;}
+
+.form label {
+    margin-bottom: 10px;
+    color: #FFF;
+    display: block;}
+
+.submit input {
+    width: 100px;
+    height: 40px;
+    background-color: #133141;
+    color: #FFF;}
+
+form, h2{ text-align:center;}
+
+h2{ color:#FFF;}
+
+section p,h1{ color:#FFF; 
+		text-align:center; 
+		padding:20px; top:10px;}
+		
+		
+
+h4{ padding-left:700px;}
+
+ nav {
+	
+position: absolute;
+left:800px;
+	text-align: center;
+}
+section fieldset{ 
+	position: absolute;
+	color: white;
+	padding: 50px;
+    background-color:#541d21;
+   
+	left:290px;
+	bottom:-230px;
+	
+}
+
+h5 {
+	text-align: center;
+	color:#e9d9ee; 
+	text-decoration: none; outline:none;
+		font-family: Helvetica,Segoe,Verdana, sans-serif;
+		font-size:20px;
+}
